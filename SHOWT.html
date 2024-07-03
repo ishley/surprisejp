@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> It's SHOWTIME </title>
+
+    <header>
+        <div class="navbar" id="navbar1"> 
+
+                <div class="icons" id="icons">
+                    <a href="choice.html"> <img class="HOME" src="home.svg" alt="HOME"> </a>
+                    <a href="MMK.html"> <img class="BACK" src="back.svg" alt="BACK"> </a>
+                    <a href="SHOWT2.html"> <img class="NEXT" src="next.svg" alt="NEXT"> </a>
+               </div>
+        </div>
+
+    </header>
+</head>
+<body>
+
+    <audio autoplay loop>
+        <source src="calm.MP3" type="audio/mp3">
+   </audio>
+
+    <div class="gallery">
+        <h1> Here's what you asked before summer </h1>
+        <div class="pics">
+            <div id="1">
+                <img src="tb2.jpg">
+                <img src="tb6.png">
+                <img src="tb5.png">
+            </div>
+            <div id="2"> 
+                <img src="tb1.jpg">
+                <img src="tb4.png">
+                <img src="tb3.jpg">
+            </div>
+        </div>
+    <a href="SHOWT2.html"> <img src="click.gif" alt="CLICK ME"> </a>  
+    </div>
+</body> 
+
+<style>
+    *{margin:0; padding:0;}
+
+.navbar {
+    position: relative;
+    overflow: hidden;
+    background-color: pink;
+    height: 6vh;
+  }
+
+.icons {
+    float: right;
+    display: flex;
+    justify-content:center;
+    margin-right: 30px;
+}
+
+.icons a {
+    float: right;
+  margin-right: 3px;
+  margin-top: -10px;
+}
+
+.icons img {
+    height: 4vh;
+  border-radius: 360px;
+  margin-right: 3px;
+  margin-bottom: -35px;
+}
+
+body {
+    overflow-y: hidden;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('sanriobr.jpg');
+    background-repeat:round;
+}
+
+.gallery img {
+    margin-top: -15vh;
+    margin-right: 80vw;
+}
+
+.gallery{
+    width: 98vw;
+    height: 100vh;
+    background-position: center;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.gallery h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #C3B1E1;
+    position: fixed;
+    text-shadow: 1px 1px whitesmoke;
+    float: center;
+    top: 8%;
+    bottom: 10%;
+    left: 29%;
+}
+.gallery .pics{
+    margin-top: 8em;
+}
+.pics img{
+    opacity: 1;
+    transition: 0.1s;
+    margin: 25px;
+    width: 10%;
+    border: 4px #C3B1E1 ridge;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+}
+</style>
+</html>

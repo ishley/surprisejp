@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> U NANAMAN HEHE </title>
+
+    <header>
+        <div class="navbar" id="navbar1"> 
+                <div class="icons" id="icons">
+                    <a href="choice.html"> <img class="HOME" src="home.svg" alt="HOME"> </a>
+                    <a href="SHOWT2.html"> <img class="BACK" src="back.svg" alt="BACK"> </a>
+                    <a href="SHOWT3.html"> <img class="NEXT" src="next.svg" alt="NEXT"> </a>
+               </div>
+        </div>
+    </header>
+</head>
+<body>
+
+    <audio autoplay loop>
+        <source src="clock.MP3" type="audio/mp3">
+   </audio>
+
+<div class="quiz" id="quiz">
+     <form>
+            <h1> DAPAT IKAW RIN MAY QUIZ!!!!! </h1> <br> 
+
+            <div class="ques" id="ques"> 
+                <label for="ans1"> 1. Miss mo ba ako?</label> <input type="radio" id="ans" name="ans1" value="OO"> <label for="ans1">OO</label>
+                <input type="radio" id="ans" name="ans2" value="OO"> <label for="ans2">YES</label>
+                <input type="radio" id="ans" name="ans3" value="OO"> <label for="ans3">SUPER</label> <br>
+
+                <label for="ans4">2. Sama ka? </label> <input type="radio" id="ans" name="ans4" value="OO"> <label for="ans4">OO</label>
+                <input type="radio" id="ans" name="ans5" value="OO"> <label for="ans5">YES</label>
+                <input type="radio" id="ans" name="ans6" value="OO"> <label for="ans6"> PLEASE </label> <br>
+
+                <label for="ans4"> 3. Bakit di ka mag-teleport? </label> <input type="radio" id="ans" name="ans7" value="OO"> <label for="ans7"> intay ko powers ko </label>
+                <input type="radio" id="ans" name="ans8" value="OO"> <label for="ans8"> wait mo lang </label>
+                <input type="radio" id="ans" name="ans9" value="OO"> <label for="ans9"> papunta ta </label> <br>
+            </div>
+        </form>
+            <div class="button" id="button"> 
+               <br> <a href="SHOWT3.html"> <button class="submit"> SUBMIT </button> </a> 
+            </div>
+
+            <br> <a href="https://forms.gle/sfZYTzjNZ3dwzvAs7"> <p> Click ME for more </p> </a>
+    
+</div>
+</body>
+
+<style>
+    *{margin:0; padding:0;}
+
+.navbar {
+    position: relative;
+    overflow: hidden;
+    background-color: pink;
+    height: 6vh;
+  }
+
+.icons {
+    float: right;
+    display: flex;
+    justify-content:center;
+    margin-right: 30px;
+}
+
+.icons a {
+    float: right;
+  margin-right: 3px;
+  margin-top: -10px;
+}
+
+.icons img {
+    height: 4vh;
+  border-radius: 360px;
+  margin-right: 3px;
+  margin-bottom: -35px;
+}
+
+body {
+    overflow-y: hidden;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('sanriobr.jpg');
+    background-repeat:round;
+}
+
+.quiz {
+    position: relative;
+        overflow-x: hidden;
+         width: 50vw;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align:left ;
+        margin-top: 20vh;
+        margin-left:20vw;
+}
+
+.submit {
+        position: relative;
+        justify-content: center;
+        padding: 5px 5px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: pink;
+        border-color: #fff;
+}
+
+.quiz a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+</style>
+</html>

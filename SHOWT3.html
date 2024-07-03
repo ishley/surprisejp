@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAAAYY</title>
+
+    <header>
+        <div class="navbar" id="navbar1"> 
+                <div class="icons" id="icons">
+                    <a href="choice.html"> <img class="HOME" src="home.svg" alt="HOME"> </a>
+                    <a href="SHOWT2.html"> <img class="BACK" src="back.svg" alt="BACK"> </a>
+                    <a href="SHOWT.html"> <img class="NEXT" src="next.svg" alt="NEXT"> </a>
+               </div>
+        </div>
+    </header>
+
+</head>
+<body>
+
+    <audio autoplay loop>
+        <source src="yay.MP3" type="audio/mp3">
+   </audio>
+
+    <div class="win" id="win">
+        <img src="wireframe.gif" id="br">
+    </div>
+</body>
+
+<style>
+*{margin:0; padding:0;}.navbar {
+    position: relative;
+    overflow: hidden;
+    background-color: pink;
+    height: 6vh;
+  }
+
+.icons {
+    float: right;
+    display: flex;
+    justify-content:center;
+    margin-right: 30px;
+}
+
+.icons a {
+    float: right;
+  margin-right: 3px;
+  margin-top: -10px;
+}
+
+.icons img {
+    height: 4vh;
+  border-radius: 360px;
+  margin-right: 3px;
+  margin-bottom: -35px;
+}
+
+body {
+    overflow-y: hidden;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('sanriobr.jpg');
+    background-repeat:round;
+}
+
+.win img {
+    overflow-x: hidden;
+    position: relative;
+    height: 94vh;
+    width: 100vw;
+}
+</style>
+</html>

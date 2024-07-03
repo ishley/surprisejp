@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> What to do? Choose one</title>
+</head>
+<body>
+
+    <audio autoplay loop>
+        <source src="clock.MP3" type="audio/mp3">
+   </audio>
+
+    <div class="all"> 
+        <div class="title"> 
+            <h2> What do you want to watch/read first? </h2>
+        </div>
+
+        <div class="conts"> 
+            <a href="BAD.html"> <div class="box blue"> <h3> Boy </br> Abunda </br> daw  </h3> </div> </a>
+            <a href="MMK.html"> <div class="box purple"> <h3> MMK </br> dito </br> bhie </h3> </div> </a>
+            <a href="SHOWT.html"> <div class="box pink"> <h3> dito </br> kay </br> SHOWTIME </h3> </div> </a>
+        </div>
+    </div>
+</body>
+
+<style>
+     *{margin:0; padding:0;}
+
+body {
+    overflow-y: hidden;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('sanriobr.jpg');
+    background-repeat:round;
+}
+
+.title {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 25vw;
+    font-size: xx-large;
+}
+
+.box {
+    position: relative;
+      width: 200px;
+      height: 200px;
+      float: left;
+      margin: 50px;
+      background-color: pink;
+    }
+
+    .conts {
+        position: relative;
+        margin-top: 0.01px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 79vh;
+    }
+
+    .conts a:hover {
+    opacity: 1;
+    transition: 0.3s;
+    transform: scale(1.5);
+    }
+    
+    h3 { 
+        font-size: larger;
+        justify-content: center;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 9vh;
+    }
+</style>
+</html>
